@@ -7,6 +7,9 @@
 
 Start your bash terminal, change to the directory where you want to download the codes (cd /your_directory)
 
+## Repository Link: 
+   https://github.com/Abdulkbk/stem-coders-9.git
+
 * Clone the Repository
 ```
     Run this command "git clone <the repository link>"
@@ -43,7 +46,12 @@ Start your bash terminal, change to the directory where you want to download the
     git add .
     git commit -m "your message"
   ```
-  
+
+* Check status
+  ```
+  Run "git status"
+  ```
+
 * Push your changes
     ```
     git push origin Main
