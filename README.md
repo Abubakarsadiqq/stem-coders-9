@@ -15,29 +15,24 @@ Start your bash terminal, change to the directory where you want to download the
     Run this command "git clone <the repository link>"
 ```
 
-* Initialise git
+* Change to Repo directory
+```
+   Run "cd stem-coders-9"
+```
+
+* Run
    ```
-   Run "git init"
+   git remote -v: to view remote link for pull/fetch
    ```
 
 * Switch to Main branch
 ```
-    Run this command "git checkout -b main"
+    Run this command "git checkout main"
 ```
 
-* Connect to Upstream
-   ```
-   Run this "git remote add origin <Repo Link>
-   ```
-
-* Verify your pull/fetch link
-  ```
-     Run this "git remote -v"
-  ```
-
-* After changes have been made do: Note always do this before pushing
+* After changes have been made: Note always do this before pushing
     ```
-    git pull origin Main
+    git pull
     ```
 <!--  Create a new folder with your name -->
 
@@ -54,5 +49,5 @@ Start your bash terminal, change to the directory where you want to download the
 
 * Push your changes
     ```
-    git push origin Main
+    git push
     ```
