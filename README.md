@@ -12,10 +12,20 @@ Start your bash terminal, change to the directory where you want to download the
     Run this command "git clone <the repository link>"
 ```
 
+* Initialise git
+   ```
+   Run "git init"
+   ```
+
 * Switch to Main branch
 ```
     Run this command "git checkout -b Main"
 ```
+
+* Connect to Upstream
+   ```
+   Run this "git remote add origin <Repo Link>
+   ```
 
 * Verify your pull/fetch link
   ```
@@ -24,8 +34,9 @@ Start your bash terminal, change to the directory where you want to download the
 
 * After changes have been made do: Note always do this before pushing
     ```
-    git pull
+    git pull origin Main
     ```
+<!--  Create a new folder with your name -->
 
 * Make your changes, add them and make your commits
   ```
@@ -35,5 +46,5 @@ Start your bash terminal, change to the directory where you want to download the
   
 * Push your changes
     ```
-    git push
+    git push origin Main
     ```
