@@ -22,7 +22,7 @@ Start your bash terminal, change to the directory where you want to download the
 
 * Switch to Main branch
 ```
-    Run this command "git checkout -b Main"
+    Run this command "git checkout -b main"
 ```
 
 * Connect to Upstream
