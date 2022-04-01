@@ -7,7 +7,7 @@ var temp = document.querySelector('#temp')
 var wind = document.querySelector('#wind')
 
 
-apik = "3045dd712ffe6e702e3245525ac7fa38"
+apik = "96a4b810b8d005bf9219b1748108b7b3"
 
 
 function convertion(val){
